@@ -1,0 +1,39 @@
+*{
+    margin:0;
+}
+
+
+.app{
+    background-color: #fafafa;
+    height:100vh;
+}
+
+.app__logo{
+    object-fit: contain;
+}
+.app_header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    object-fit:contain;
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+}
+
+.header__right{
+    display: flex;
+}
+
+.app__post{
+    padding-left: 20px;
+  
+ 
+}
+ 
+
+.upload{
+    margin-bottom: 20px;
+    padding: 20px;
+}
